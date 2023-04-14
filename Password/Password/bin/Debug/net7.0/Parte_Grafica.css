@@ -1,0 +1,54 @@
+h1 
+{
+    font-family: 'Dancing Script', cursive;
+    color: #ff0d05;
+    font-size: 50px;
+    text-align: center;
+}
+
+table 
+{
+    width: 100%;
+}
+
+td,th 
+{
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid;
+    text-align: center;
+    padding: 15px;
+    font-size:30px;
+}
+
+tr
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+
+/**colore riga alternato pari**/
+tr:nth-child(2n) 
+{
+    background-color: #09ff0059;
+}
+
+/**colore riga alternato dispari**/
+tr:nth-child(2n + 3) 
+{
+    background-color: #f0ec067e;
+}
+
+/***colore prima linea tabella**/
+tr:nth-child(-n + 1) 
+{
+    background-color: #0400ff60;
+}
+
+.Immagine 
+{
+    display: block;
+    margin: 0 auto;
+    width:auto;
+    height: 200px;
+}
